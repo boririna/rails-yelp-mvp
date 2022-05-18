@@ -9,6 +9,16 @@ gem "rails", "~> 7.0.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem "bootstrap"
+
+gem 'autoprefixer-rails'
+
+gem 'font-awesome-sass', '~> 5.6.1'
+
+gem 'simple_form', github: 'heartcombo/simple_form'
+
+gem 'faker'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
